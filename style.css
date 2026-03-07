@@ -1,26 +1,27 @@
+```css
 body{
 font-family:Arial;
 margin:0;
-background:#f4f4f4;
 }
 
 header{
 background:#111;
 color:white;
 padding:15px;
+position:sticky;
+top:0;
 }
 
 .container{
-width:90%;
-margin:auto;
 display:flex;
 justify-content:space-between;
-align-items:center;
+width:90%;
+margin:auto;
 }
 
 nav ul{
-list-style:none;
 display:flex;
+list-style:none;
 gap:20px;
 }
 
@@ -29,36 +30,39 @@ color:white;
 text-decoration:none;
 }
 
-.hero{
+.section{
+padding:80px 20px;
 text-align:center;
-padding:100px 20px;
+min-height:100vh;
+}
+
+.hero{
 background:#ddd;
 }
 
-.hero button{
-padding:10px 20px;
-border:none;
+img{
+width:250px;
+margin:10px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+width:300px;
+margin:auto;
+gap:10px;
+}
+
+input,textarea{
+padding:10px;
+}
+
+button{
+padding:10px;
 background:black;
 color:white;
+border:none;
 cursor:pointer;
-}
-
-.gallery{
-text-align:center;
-padding:40px;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:20px;
-width:60%;
-margin:auto;
-}
-
-.grid img{
-width:100%;
-border-radius:8px;
 }
 
 footer{
@@ -66,5 +70,5 @@ background:#111;
 color:white;
 text-align:center;
 padding:20px;
-margin-top:40px;
 }
+```
