@@ -1,3 +1,5 @@
-document.getElementById("btn").addEventListener("click", function() {
+document.getElementById("btn").addEventListener("click", function(){
+
 alert("Thanks for visiting my website!");
+
 });
